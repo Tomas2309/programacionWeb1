@@ -1,0 +1,308 @@
+/* GENERALES */
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(251, 255, 255);
+    line-height: 2.3rem;
+}
+h2{
+    text-transform: uppercase;
+}
+.font_firma{
+  font-family: "Dancing Script";
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.font_texto{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.font_titulo{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.logos{
+    padding: 0rem;
+}
+.nav_secundario div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: stretch;
+    height: 5rem;
+    padding: .4rem;
+}
+.nav_secundario img{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);   
+}
+.nav_principal{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.nav_lista{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: stretch;
+    background-color: rgb(15, 15, 14);
+}
+.out_list{
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+}
+.nav_lista div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo_inicio{
+    margin: 0rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 100%;
+    border-top-right-radius:0.5rem ;
+}
+.menu{
+    background-color: rgba(230, 214, 39, 0.745);
+    cursor: pointer;
+    border-top-right-radius:0.5rem ;
+}
+.enlaces:hover{
+    background-color:rgba(230, 214, 39, 0.745);
+}
+.nav_lista #nav_parte1{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.nav_lista #nav_parte2 {
+    gap: 2rem;
+    display: flex;
+    align-items: stretch;
+    padding-right: 2rem;
+}
+
+/* ------------------------------------------------------- MENU HAMBURGUESA */
+
+#nav_parte1 li{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+#nav_parte2 a,#nav_parte2 li{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+.lista_hamburguesa{
+    position: relative;
+}
+.absoluta{
+    position: absolute;
+    display: none;
+    left: 0rem;
+    top: 0rem;
+
+}
+.horizontal{
+    width: 50rem;
+    top: 6rem;
+}
+.vertical{
+    top:6rem;
+    width: 17.2rem;
+}
+.lista_hamburguesa:hover .absoluta{
+    display: block;
+    background-color: rgb(15, 15, 14);
+}
+.lista_hamburguesa:hover li{
+    display: flex;
+}
+.lista_hamburguesa:hover a{
+    padding: 2rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.lista_hamburguesa:hover a:hover{
+    background-color:rgba(230, 214, 39, 0.745);
+    color: black;
+}
+.nav_secundario a:hover{
+    background-color: rgba(0, 0, 0, 0.17);
+    border-radius: 1rem;
+}
+.sin_bg:hover{
+    background:none;
+}
+/* ------------------------------------------------------- HEADER */
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+#header_index img{
+    position: relative;
+}
+
+#header_index h1{
+    text-align: end;
+    width: 100%;
+    position: absolute;
+    top: 11.5rem;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-top: .5rem solid rgba(230, 214, 39, 0.745);
+    margin: 0 auto;
+    padding: 2.5rem 3rem;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+/* ------------------------------------------------------- MAIN - EVENTO */
+#index_evento{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    margin: 10rem auto;
+    background-color: bisque;
+    border-radius: 1rem;
+}
+#index_evento iframe{
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+#index_evento_texto{
+    flex:1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+#index_evento_texto .boton, .index_canciones .boton{
+    margin-top: 4rem;
+}
+.boton{
+    background-color: rgba(0, 0, 0, 0.871);
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    color: rgb(238, 237, 237);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+}
+
+.boton:hover{
+    color: black;
+    background-color: rgba(230, 214, 39, 0.745);
+}
+/* ------------------------------------------------------- MAIN - CANCIONES*/
+.index_canciones{
+    background: url(/music_page/img/fondo.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+.index_canciones iframe{
+    height: 8rem;
+}
+.index_canciones h2{
+    margin: 3rem;
+}
+
+/* ------------------------------------------------------- MAIN - SHOWS PROXIMOS */
+#shows h2{
+    margin-top: 10rem;
+    padding: 2rem;
+}
+.shows_caja{
+    border: .3rem solid black;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    background: url(/music_page/img/fondo_2.jpg);
+}
+.shows_caja:hover{
+    background:#e0e0e0;
+    box-shadow: 30px 30px 60px #b8b8b8, -30px -30px 60px #ffffff;
+}
+.shows_caja div{
+    padding: 2rem;
+}
+.shows_caja_ind div{
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+}
+.maps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 6rem auto;
+    gap: 1.5rem;
+}
+.maps_ind{
+    border: black solid 1px;
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+    border-radius: 1rem;
+    text-align: center;
+}
+.maps_caja{
+    background-color: aqua;
+    margin: 0 auto;
+    width: 90%;
+}
+figure{
+    margin: 0rem;
+    padding: 0rem;
+}
+.maps_ind iframe{
+    border: none;
+}
+figcaption{
+    padding: 2rem;
+}
+.maps_ind:hover{
+    background:#e0e0e0;
+    box-shadow: 30px 30px 60px #b8b8b8, -30px -30px 60px #ffffff;
+}
+/* ------------------------------------------------------- FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+footer {
+    padding: 2rem;
+}
+footer #three p{
+    margin-bottom: 0rem;
+}
