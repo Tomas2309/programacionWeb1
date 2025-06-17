@@ -31,13 +31,12 @@
         <ul class="nav_lista out_list">
             <div id="nav_parte1">
                 <li class="menu lista_hamburguesa">
-                    <img src="/music_page/logos/barra-de-menus.png" alt="Menu Hamburguesa" width="35">
+                    <img src="./logos/barra-de-menus.png" alt="Menu Hamburguesa" width="35">
                         <ul class="absoluta horizontal out_list">
-                            <li><a href="#">Anuncios</a></li>
-                            <li><a href="#">Musica</a></li>
-                            <li><a href="#">Shows</a></li>
-                            <li><a href="#">Tienda</a></li>
-                            <li><a href="#">Historia</a></li>
+                            <li><a href="./anuncios.html" class="enlaces">Anuncios</a></li>
+                            <li><a href="./musica.html">Musica</a></li>
+                            <li><a href="./index.html#shows">Shows</a></li>
+                            <li><a href="./tienda.html">Tienda</a></li>
                         </ul>
                 </li>
                 <li>
@@ -45,15 +44,15 @@
                 </li>
             </div>
             <div id="nav_parte2">
-                <a href="#" class="enlaces">Anuncios</a>
+                <a href="./anuncios.html" class="enlaces">Anuncios</a>
                 <li class="lista_hamburguesa sin_bg enlaces">
-                    <a href="#" class="enlaces">Musica Bionica</a>
+                    <a href="./musica.html" class="enlaces">Musica Bionica</a>
                     <ul class="absoluta vertical out_list">
-                        <li><a href="#">Albunes</a></li>
-                        <li><a href="#">Canciones</a></li>
+                        <li><a href="./musica.html#ancla_album">Albumes</a></li>
+                        <li><a href="./musica.html">Canciones</a></li>
                     </ul>
                 </li>
-                <a href="#" class="enlaces">Ingresar</a>
+                <a href="./ingresar.html" class="enlaces">Ingresar</a>
             </div>
         </ul>
     </nav>
@@ -66,7 +65,7 @@
     </header>
     
     <main class="contenedor">
-        <section id="index_evento">
+        <section id="index_evento" class="sombras">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/cpkjseoDXCg?si=3hDA0FPUjksZFsgg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div id="index_evento_texto">
                 <h2 class="font_titulo">Revivi nuestro ultimo show!</h2>
@@ -74,7 +73,7 @@
                 <a href="https://www.youtube.com/watch?v=cpkjseoDXCg"class="boton">Revivilo ahora!</a>
             </div>
         </section>
-        <section class="index_canciones">
+        <section class="index_canciones sombras_sinbg">
             <h2>Escucha nuestros hits</h2>
             <div>
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2n0NCtkvHx1oPqgiAvexiB?utm_source=generator&theme=0" width="30%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -84,100 +83,101 @@
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7ESKEiE8LRLrDwdS2ZgUiR?utm_source=generator&theme=0" width="30%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5aVhIDZmDeMt2C2ZMX5KoH?utm_source=generator&theme=0" width="30%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
-            <a href="" class="boton">Mas</a>
+            <a href="./musica.html" class="boton">Mas</a>
         </section>
         <section id="shows">
+            <br>
             <h2>Proximos Shows</h2>
-            <div class="shows_caja">
+            <div class="shows_caja sombras">
                 <div class="shows_caja_ind">
                     <span><img src="./img/bandera_arg.webp" alt="Bandera de Argentina" width="3%"><p>20 de Junio del 2025, Buenos Aires, Argentina</span>
                     <p>Estadio Monumental - Inicio 20hs</p>
                 </div>
                 <div class="shows_caja_ind">
                     <div>
-                        <a href="" class="boton">Comprar Ticket</a>
+                        <a href="./ingresar.html" class="boton">Comprar Ticket</a>
                         <p>Disponible</p>
                     </div>
                 </div>
             </div>
-            <div class="shows_caja">
+            <div class="shows_caja sombras">
                 <div class="shows_caja_ind">
                     <span><img src="./img/bandera_arg.webp" alt="Bandera de Argentina" width="3%"><p>21 de Junio del 2025, Buenos Aires, Argentina</span>
                     <p>Estadio Monumental - Inicio 20hs</p>
                 </div>
                 <div class="shows_caja_ind">
                     <div>
-                        <a href="" class="boton">Comprar Ticket</a>
+                        <a href="./ingresar.html" class="boton">Comprar Ticket</a>
                         <p>Disponible</p>
                     </div>
                 </div>
             </div>
-            <div class="shows_caja">
+            <div class="shows_caja sombras">
                 <div class="shows_caja_ind">
                     <span><img src="./img/bandera_arg.webp" alt="Bandera de Argentina" width="3%"><p>22 de Junio del 2025, Buenos Aires, Argentina</span>
                     <p>Estadio Monumental - Inicio 20hs</p>
                 </div>
                 <div class="shows_caja_ind">
                     <div>
-                        <a href="" class="boton">Comprar Ticket</a>
+                        <a href="./ingresar.html" class="boton">Comprar Ticket</a>
                         <p>Disponible</p>
                     </div>
                 </div>
             </div>
-            <div class="shows_caja">
+            <div class="shows_caja sombras">
                 <div class="shows_caja_ind">
                     <span><img src="./img/bandera_arg.webp" alt="Bandera de Argentina" width="3%"><p>30 de Junio del 2025, La Boca, Argentina</span>
                     <p>Estadio La Bombonera - Inicio 22hs</p>
                 </div>
                 <div class="shows_caja_ind">
                     <div>
-                        <a href="" class="boton">Comprar Ticket</a>
+                        <a href="./ingresar.html" class="boton">Comprar Ticket</a>
                         <p>Disponible</p>
                     </div>
                 </div>
             </div>
             
-            <div class="shows_caja">
+            <div class="shows_caja sombras">
                 <div class="shows_caja_ind">
-                    <span><img src="./img/bandera_arg.webp" alt="Bandera de Argentina" width="3%"><p>30 de Junio del 2025, La Plata, Argentina</span>
+                    <span><img src="./img/bandera_arg.webp" alt="Bandera de Argentina" width="3%"><p>30 de Julio del 2025, La Plata, Argentina</span>
                     <p>Estadio Unico - Inicio 22hs</p>
                 </div>
                 <div class="shows_caja_ind">
                     <div>
-                        <a href="" class="boton">Comprar Ticket</a>
+                        <a href="./ingresar.html" class="boton">Comprar Ticket</a>
                         <p>Disponible</p>
                     </div>
                 </div>
             </div>
 
-            <div class="shows_caja">
+            <div class="shows_caja sombras">
                 <div class="shows_caja_ind">
                     <span><img src="./img/bandera_arg.webp" alt="Bandera de Argentina" width="3%"><p>20 de Septiembre del 2025, Buenos Aires, Argentina</span>
                     <p>Estadio Monumental - Inicio 20hs</p>
                 </div>
                 <div class="shows_caja_ind">
                     <div>
-                        <a href="" class="boton">Comprar Ticket</a>
+                        <a href="./ingresar.html" class="boton">Comprar Ticket</a>
                         <p>Disponible</p>
                     </div>
                 </div>
             </div>
             <div class="maps">
-                <div class="maps_ind">
+                <div class="maps_ind sombras">
                     <figure>
                         <figcaption>Estadio Monumental de River, Bs. As</figcaption>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26290.53541773038!2d-58.48778202568362!3d-34.5455302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20Monumental!5e0!3m2!1ses-419!2sar!4v1750031967936!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" width="100%" height="350rem" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </figure>
                     <p>ARGENTINA</p>
                 </div>
-                <div class="maps_ind">
+                <div class="maps_ind sombras">
                     <figure>
                         <figcaption>Estadio La Bombonera, Bs. As</figcaption>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.755976356544!2d-58.367336588422816!3d-34.63560645907061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b6925e5473%3A0x1ca5b2748858b40d!2sEstadio%20Alberto%20J.%20Armando!5e0!3m2!1ses-419!2sar!4v1750033549501!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" width="100%" height="350rem"  referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </figure>
                     <p>ARGENTINA</p>
                 </div>
-                <div class="maps_ind">
+                <div class="maps_ind sombras">
                     <figure>
                         <figcaption>Estadio Unico de La Plata, Bs. As</figcaption>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.589392639705!2d-57.99277125019708!3d-34.91675250427634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7a45e0f0367%3A0xca9671269b37e331!2sEstadio%20Unico!5e0!3m2!1ses-419!2sar!4v1750033490583!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" width="100%" height="350rem"  referrerpolicy="no-referrer-when-downgrade"></iframe>

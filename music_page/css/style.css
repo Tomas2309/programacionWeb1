@@ -127,10 +127,10 @@ a{
 }
 .horizontal{
     width: 50rem;
-    top: 6rem;
+    top: 6.2rem;
 }
 .vertical{
-    top:6rem;
+    top:6.2rem;
     width: 17.2rem;
 }
 .lista_hamburguesa:hover .absoluta{
@@ -155,7 +155,7 @@ a{
     border-radius: 1rem;
 }
 .sin_bg:hover{
-    background:none;
+    background-color:none;
 }
 /* ------------------------------------------------------- HEADER */
 .contenedor{
@@ -214,15 +214,16 @@ a{
     display: flex;
     justify-content: center;
     width: 15rem;
+    cursor: pointer;
 }
-
 .boton:hover{
     color: black;
     background-color: rgba(230, 214, 39, 0.745);
+    transform: scale(1.1);
 }
 /* ------------------------------------------------------- MAIN - CANCIONES*/
 .index_canciones{
-    background: url(/music_page/img/fondo.jpg);
+    background: url(../img/fondo.jpg);
     background-size: cover;
     border-radius: 1rem;
     display: flex;
@@ -248,11 +249,7 @@ a{
     border-radius: 1rem;
     margin-bottom: 1rem;
     display: flex;
-    background: url(/music_page/img/fondo_2.jpg);
-}
-.shows_caja:hover{
-    background:#e0e0e0;
-    box-shadow: 30px 30px 60px #b8b8b8, -30px -30px 60px #ffffff;
+    background: url(../img/fondo_2.png);
 }
 .shows_caja div{
     padding: 2rem;
@@ -281,7 +278,7 @@ a{
     margin: 0 auto;
     width: 90%;
 }
-figure{
+.maps figure{
     margin: 0rem;
     padding: 0rem;
 }
@@ -291,9 +288,172 @@ figure{
 figcaption{
     padding: 2rem;
 }
-.maps_ind:hover{
+.shows_caja:hover{
+    transform: scale(1.02);
+}
+.sombras:hover{
     background:#e0e0e0;
     box-shadow: 30px 30px 60px #b8b8b8, -30px -30px 60px #ffffff;
+}
+.sombras_sinbg:hover{
+    box-shadow: 30px 30px 60px #b8b8b8, -30px -30px 60px #ffffff;
+}
+
+/* -------------------------------------------------------INGRESAR.HTML */
+.ingresar{
+    width: 100%;
+    box-sizing: border-box;
+    background:url(../img/Portada_TanBionica_Ingresar.jpg);
+    background-position:0rem 4rem 5rem 6rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.caja_form{
+    box-sizing: border-box;
+    width: 60%;
+    padding: 15rem 2rem;
+    background-color:rgba(0, 0, 0, 0.352);
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
+}
+.ingresar form{
+    box-sizing: border-box;
+    max-width: 100%;
+    border: .5rem solid rgb(0, 0, 0);
+    padding: 4rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.722);
+}
+form input{
+    display: block;
+    margin-bottom: 2rem;
+    width: 90%;
+    border: solid .2rem;
+    padding: .5rem;
+}
+form div{
+    display: flex;
+    gap: 3rem;
+}
+/* ------------------------------------------------------- MUSICA.HTML */
+.musica_main{
+    margin-top: 10rem;
+    margin-bottom: 0rem;
+    background-image: url(../img/fondo.jpg);
+    border-radius: 1rem;
+}
+
+.musica_main span{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 6rem 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.musica_main .contenedor_musica_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.musica_main .contenedor_musica_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contenedor_musica_two iframe{
+    padding: 0rem 3rem;
+    width: 50rem;
+    height: 20rem;
+}
+/*  ------------------------------------------------------ ANUNCIOS.HTML */
+.anuncios{
+    background: url(../img/fondo_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caja_anuncios{
+    background-color: rgba(245, 245, 220, 0.773);
+    padding: 5rem;
+}
+.caja_anuncios li{
+    color: black;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    list-style:none;
+} 
+.indent{
+    text-indent: 1rem;
+    text-decoration: underline .3rem;
+    margin-top: 3rem;
+}
+.sin_indent{
+    text-indent: 7rem;
+}
+/*  ------------------------------------------------------ TIENDA.HTML */
+.tienda{
+    background: url(../img/Logo_de_Tan_Bionica.png);
+    background-color: #000000ef;
+    color: #e0e0e0;
+    padding-bottom: 5rem;
+}
+.tienda h1{
+    padding: 4rem 1rem;
+    margin-top: 0rem;
+}
+.caja_tienda{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.caja_producto{
+    border: solid 2px rgb(249, 249, 249);
+    border-radius: 1rem;
+}
+.caja_tienda figure img{
+    width: 100%;
+    border-radius: 1rem;
+    height: 250px;
+}
+.caja_producto figcaption{
+    background-color: #b8b8b854;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.caja_producto:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.683);
+    transform: scale(1.05);
+}
+.boton_tienda{
+    display: inline-block;
+    border: 1px solid;
+    padding: .8rem 2rem;
+    border-radius: 1rem;
+}
+.boton_tienda:hover{
+    background-color: bisque;
+    transform: scale(1.1);
+}
+.aceptado_pag{
+    text-align: center;
+    padding: 15rem 5rem;
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: uppercase;
+
 }
 /* ------------------------------------------------------- FOOTER */
 footer{

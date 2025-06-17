@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon_TB.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tan Bionica</title>
+</head>
+<body class="font_texto">
+    <nav class="nav_secundario contenedor">
+        <div>
+            <a href="https://davinci.edu.ar/"><img src="./img/Logo_Da_Vinci.png" alt="Publicidad del Da Vinci"></a>
+            <a href="https://www.coca-cola.com/ar/es"><img src="./img/Logo_Coca_Cola.png" alt="Publicidad de Coca Cola"></a>
+            <a href="https://www.globant.com/es"><img src="./img/Logo_Globant.png" alt="Publicidad de Globant"></a>
+            <a href="https://www.burgerking.com.ar/es/"><img src="./img/Logo_Burger.svg" alt="Publicidad de Burguer King" width="50"></a>
+            <a href="https://www.mercadolibre.com.ar/"><img src="./img/Logo_MercadoLibre.svg" alt="Publicidad de Mercado Libre" width="50"></a>
+            <a href="https://www.bocajuniors.com.ar/"><img src="./img/Logo_Boca.svg" alt="Publicidad de Boca Juniors" width="50"></a>
+        </div>
+    </nav>
+    <nav class="nav_principal">
+        <ul class="nav_lista out_list">
+            <div id="nav_parte1">
+                <li class="menu lista_hamburguesa">
+                    <img src="./logos/barra-de-menus.png" alt="Menu Hamburguesa" width="35">
+                        <ul class="absoluta horizontal out_list">
+                            <li><a href="./anuncios.html">Anuncios</a></li>
+                            <li><a href="./musica.html">Musica</a></li>                            
+                            <li><a href="./index.html#shows">Shows</a></li>
+                            <li><a href="./tienda.html">Tienda</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="./index.html" id="logo_inicio"><img src="./img/Logo_de_Tan_Bionica.png" alt="Tan Bionica" width="100"></a>
+                </li>
+            </div>
+            <div id="nav_parte2">
+                <a href="./anuncios.html" class="enlaces">Anuncios</a>
+                <li class="lista_hamburguesa sin_bg enlaces">
+                    <a href="./musica.html" class="enlaces">Musica Bionica</a>
+                    <ul class="absoluta vertical out_list">
+                        <li><a href="./musica.html#ancla_album">Albumes</a></li>
+                        <li><a href="./musica.html">Canciones</a></li>
+                    </ul>
+                </li>
+                <a href="./ingresar.html" class="enlaces">Ingresar</a>
+            </div>
+        </ul>
+    </nav>
+
+    
+    <main class="ingresar">
+        <div class="caja_form contenedor">
+            <h1>Inicia Sesion</h1>
+            <form action="./aceptado.html">
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo">
+                <label for="password">Contraseña:</label>
+                <input type="password" name="password" id="password">
+                <div>
+                    <button type="submit" class="boton" value="Ingresar">Ingresar</button>
+                    <button type="reset" class="boton" value="Borrar">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+        
+
+    <footer>
+        <div id="one" class="contenedor">
+            <a href="https://www.instagram.com/tanbionica?utm_source=ig_web_button_share_sheet&igsh=cXdxOGhnMGNtdzFm">
+                <img src="./logos/logo_ig.svg" alt="instagram" width="35">
+            </a>
+            <a href="https://x.com/tanbionica?lang=es">
+                <img src="./logos/logo_twitter.svg" alt="twitter" width="35">
+            </a>
+            <a href="https://wa.me/+5491155768026">
+                <img src="./logos/logo_whatsapp.svg" alt="whats app de contacto" width="35">
+            </a>
+        </div>
+        <p id="two" class="contenedor">Todos los derechos reservados 2025</p>
+        <div id="three" class="contenedor">
+            <p>Escuela Davinci</p>
+            <p>Av. Corrientes 2037, CABA</p>
+            <p>Tel: +54 9 1155768026</p>
+        </div>
+    </footer>
+</body>
+</html>
