@@ -1,0 +1,271 @@
+/* GENERALEES */
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100rem;
+    margin: 0 auto;
+    font-size: 16px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* NAV */
+.nav_principal{
+    display: flex;
+    background-color: rgb(255, 114, 6);
+}
+.nav_principal a{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: .8rem;
+    color: aliceblue;
+    
+}
+/* HEADER */
+.header_index{
+    display: flex;
+    position: relative;
+}
+.header_index h1{
+    box-sizing: border-box;
+    position:absolute;
+    background-color: rgba(195, 174, 19, 0.45);
+    margin: 0rem;
+    font-size: 5rem;
+    height: 100%;
+    display: flex;
+    align-items:end;
+    padding: 0rem 1rem 25rem 2rem;
+}
+#logo_esferas{
+    position: absolute;
+    top: 20rem;
+    left: 13rem;
+}
+#color{
+    position: absolute;
+    width: 100rem;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.287);
+}
+#video_header{
+    margin-left: 20rem;
+}
+/* MAIN */
+h2{
+    margin-top: 4rem;
+    font-size: 3.5rem;
+}
+.texto_italica{
+    font-style: italic;
+    line-height: 2.5rem;
+}
+#section_index{
+    display: flex;
+    column-gap: 3rem;
+}
+.info_serie{
+    display: flex;
+    column-gap: 3rem;
+}
+#boton_informacion{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    color: black;
+    padding: 2rem;
+    border-radius: 7px;
+}
+#boton_informacion:hover{
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+.main_index h3{
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    background-color: brown;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 1rem;
+}
+#section_index p{
+    background-color: rgb(248, 170, 2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+/* SECTION */
+.index_sagas{
+    display: flex;
+    border: 5px solid;
+    border-radius: 1rem;
+}
+.index_sagas div{
+    border: 5px solid;
+    width: 33.3%;
+    border-right: none;
+}
+.index_sagas img{
+    max-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+.boton_episodios{
+    display: flex;
+    justify-content: end;
+}
+.boton_episodios a{
+    border: 2px solid;
+    color: black;
+    border-radius: 7px;
+    padding: 1rem;
+}
+.boton_episodios a:hover{
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+#canales_serie{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin: 7rem auto;
+}
+#canales_serie h3{
+    background-color: white;
+    color: black;
+    text-decoration: overline;
+}
+#canales_serie div{
+    width: 100%;
+    display: flex;
+}
+
+.index_calificaciones{
+    text-align: center;
+}
+.index_calificaciones h3{
+    display: inline-block;
+    margin: 0rem;
+    background-color: cornflowerblue;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.index_calificaciones img{
+    width: 17%;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 2rem 1rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer div{
+    width: 33.3%;
+    gap: 0rem;
+    text-align: center;
+}
+footer #one{
+    padding-top: 2rem;
+}
+footer #two{
+    display: flex;
+    align-items: end;
+}
+footer img{
+    max-width: 10%;
+    margin-right: 2rem;
+}
+/* HISTORIA.HTML */
+#info_akira{
+    display: flex;
+    width: 100rem;
+    margin: 0 auto;
+    gap: 3rem;
+    line-height: 2.5rem;
+}
+#imagen_akira{
+    width: 30%;
+}
+#imagen_dbz{
+    text-align: center;
+}
+/* PERSONAJES.HTML */
+.main_personajes{
+    width: 100%;
+}
+#personajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+}
+.cajas_personajes{
+    border: 2px solid black;
+    margin-right: 10rem;
+    margin: 3rem;
+    border-radius: 1rem;
+}
+.cajas_personajes img{
+    max-width: 100%;
+    height: 21rem;
+}
+.nombres_personajes{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.descripcion_personaje{
+    padding: .5rem;
+    font-family:cursive;
+    text-align: center;
+}
+/* NOVEDADES.HTML */
+.main_novedades section{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+.main_novedades img{
+    border-radius: 5px;
+}
+.main_novedades a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 1rem 2rem;
+    background-color: azure;
+    color: black;
+    text-align: center;
+}
+.main_novedades a:hover{
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+
+/* ERROR.HTML */
+.main_error{
+    margin: 15rem 10rem;
+    text-align: center;
+}
+.main_error a{
+    border: 2px solid;
+    color: black;
+    border-radius: 7px;
+    padding: 1rem;
+}
+.main_error a{
+    border: 2px solid;
+    color: black;
+    border-radius: 7px;
+    padding: 1rem;
+}
+.main_error a:hover{
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
