@@ -1,5 +1,172 @@
 @media screen and (max-width:993px) {/*Para tablet y celu - Menu de navegacion*/
     body{
-        
+        max-width: 95vw;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 2rem;
+        margin: 3rem 0rem;
+    }
+    .main_index h3{
+        margin: 3rem auto;
+        padding: 0.5rem 1rem;
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .nav_principal{
+        display: block;
+        padding-bottom: 1rem;
+    }
+    .nav_principal a{
+        justify-content: center;
+    }
+    .nav_principal .boton{
+        display: block;
+        margin: 0rem 4rem;
+        padding-bottom: 1rem;
+    }
+    .header_index h1{
+        display: none;
+    }
+    .nube{
+        display: none;
+    }
+    .logo_menu{
+        display: flex;
+        transform: scale(1.2);
+    }
+    .cont_logo_dbz{
+        justify-content: center;
+        padding: 3rem;
+    }
+    .cont_logo_dbz span{
+        display: flex;
+        justify-content: center;
+    }
+    .nav_principal a img:hover{
+        transform: none;
+    }
+    #video_header,#logo_esferas{
+        display: none;
+    }
+    .header_index h1{
+        color: rgba(0, 0, 0, 0.667);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../img/siete_esferas.png);
+        background-position: center center;
+        background-size: cover;
+        height: auto;
+        width: 100%;
+        padding: 3rem;
+    }
+    .fondo_fixed{
+        display: none;
+    }
+    .ordenar{
+       display: none;
+    }
+    .nav_principal:hover .ordenar{
+        display: block;
+    }
+    #boton_informacion{
+        font-size: 1rem;
+    }
+    #section_index p,#boton_informacion{
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .index_figure figcaption {
+        font-size:1rem;
+        margin: 2rem auto;
+        text-decoration: none;
+    }
+    .texto_italica{
+        line-height: 1.5rem;
+        padding: 1rem 2rem;
+    }
+    .boton_episodios {
+        width: auto;
+        border: 1px solid;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+    #canales_serie {
+        gap: 0rem;
+        margin: 1rem 0rem;
+    }
+    #canales_serie div {
+        padding: 2rem 1rem;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+    }
+    .pag_externas{
+        display: flex;
+        justify-content: center;
+        transform: scale(.5);
+    }
+    #canales_serie h3 {
+        font-size: 1.3rem;   
+        margin: 0rem; 
+    }
+    .index_calificaciones h3{
+        display: block;
+    }
+    .index_canciones_youtube{
+        flex-direction: column;
+        align-items: center;
+    }
+    #info_akira{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #imagen_akira{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .main_novedades section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_novedades a{
+        padding: 1rem;
+        border: 1px solid;
+        border-radius: 1rem;
+        background-color: rgba(240, 255, 255, 0);
+        color: black;
+        text-align: center;
+    }
+    #personajes{
+        display: block;
+    }
+    .cajas_personajes{
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        border: 2px solid black;
+    }
+    .cajas_personajes img{
+        width: 100%;
+        border-radius: 1rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer #one{
+        display: none;
     }
 }
