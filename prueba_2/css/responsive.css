@@ -124,6 +124,12 @@
         flex-direction: column;
         align-items: center;
     }
+    .index_canciones_youtube iframe{
+        width: 90%;
+    }
+    .index_canciones iframe{
+        width: 90%;
+    }
     #info_akira{
         display: flex;
         flex-direction: column;
@@ -134,6 +140,8 @@
         display: flex;
         justify-content:center;
         align-items: center;
+        border-radius: 1rem;
+        width: 40%;
     }
     .main_novedades section{
         display: flex;
@@ -154,7 +162,7 @@
     .cajas_personajes{
         width: 70%;
         margin: 0 auto;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         border: 2px solid black;
     }
     .cajas_personajes img{
@@ -162,8 +170,8 @@
         border-radius: 1rem;
     }
     .descripcion_personaje{
-        font-size: 1.5rem;
-        font-style: italic;
+        font-size: 1.6rem;
+        font-style: oblique;
     }
     form{
         width: 100%;
